@@ -41,7 +41,7 @@ resource "helm_release" "argocd" {
 }
 
 resource "argocd_repository" "infra-argo" {
-  repo            = "git@github.com:philipsabri/argocd.git"
+  repo            = "https://github.com/philipsabri/argocd.git"
   depends_on      = [helm_release.argocd]
 }
 
