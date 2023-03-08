@@ -6,9 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/philipsabri/test-app.git
-    targetRevision: HEAD
-    path: deployment
+    chart: test-app-chart
+    repoURL: oci://ghcr.io/philipsabri
+    targetRevision: ">=0.0.0"
+    helm:
+      releaseName: test-app
   destination:
     server: https://kubernetes.default.svc
     namespace: default
