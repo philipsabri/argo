@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: test-app-chart
-    repoURL: oci://ghcr.io/philipsabri
+    repoURL: ghcr.io/philipsabri
     targetRevision: ">=0.0.0"
     helm:
       releaseName: test-app
