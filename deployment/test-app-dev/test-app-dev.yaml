@@ -1,5 +1,5 @@
 test-app-chart:
   image:
     name: ghcr.io/philipsabri/test-app
-    tag: 0.1.30
-  test: asd
+    tag: 0.1.31
+  test: asdaa
