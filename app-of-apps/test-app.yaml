@@ -8,7 +8,7 @@ spec:
   source:
     path: deployment/test-app-dev
     repoURL: https://github.com/philipsabri/argocd.git
-    targetRevision: "0.1.8"
+    targetRevision: main
     helm:
       releaseName: test-app
       valueFiles:
