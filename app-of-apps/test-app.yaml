@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: test-app-chart
-    repoURL: https://github.com/philipsabri/test-app.git
+    repoURL: https://github.com/philipsabri/argocd.git
     targetRevision: "0.1.8"
     helm:
       releaseName: test-app
