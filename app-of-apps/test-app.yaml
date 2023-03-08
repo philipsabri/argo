@@ -8,7 +8,7 @@ spec:
   source:
     chart: test-app-chart
     repoURL: ghcr.io/philipsabri
-    targetRevision: ">=0.0.0"
+    targetRevision: "0.1.8"
     helm:
       releaseName: test-app
       valueFiles:
