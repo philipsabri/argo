@@ -2,4 +2,4 @@ test-app-chart:
   image:
     name: ghcr.io/philipsabri/test-app
     tag: 0.1.28
-  test: abcsada
+  test: asdas
