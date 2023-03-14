@@ -8,7 +8,7 @@ spec:
   source:
     path: deployment/test-app-dev
     repoURL: ghcr.io/philipsabri
-    targetRevision: 0.1.8
+    targetRevision: ">= 0.0.0"
     chart: test-app-chart
     helm:
       releaseName: test-app
