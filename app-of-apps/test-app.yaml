@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://artifactory.karolinska.se/artifactory/backstage-helm-snapshot
-    targetRevision: ">0.0.0-0"
+    targetRevision: 0.0.0-0
     chart: backstage-app-chart
     helm:
       releaseName: test-app
