@@ -6,10 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    path: deployment/test-app-dev
-    repoURL: ghcr.io/philipsabri
+    repoURL: https://artifactory.karolinska.se/artifactory/backstage-helm-snapshot
     targetRevision: "^0.x.x"
-    chart: test-app-chart
+    chart: backstage-app-chart
     helm:
       releaseName: test-app
   destination:
