@@ -35,4 +35,4 @@ terraform.rc
 
 *.lock.hcl
 
-*.ignore.yaml
+*.ignore.*
